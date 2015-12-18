@@ -7,9 +7,6 @@
     "type": "git",
     "url": "https://github.com/jaysvoboda/nodejs-aes256.git"
   },
-  "dependencies": {
-	"crypto": "0.0.3"
-  },
   "keywords": [
     "aes",
     "aes256",
