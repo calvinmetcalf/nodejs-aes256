@@ -10,17 +10,17 @@ Make sure you install and require the nodejs-aes256 module.
 
 `var aes256 = require('nodejs-aes256');`
 
-##Encryption
+## Encryption
 Ciphertext is base64 encoded. The first parameter is the shared key and the second is the plaintext.
 
 `var ciphertext = aes256.encrypt(key, plaintext);`
 
-##Decryption
+## Decryption
 For decryption, simply provide the shared key and ciphertext.
 
 `var plaintext = aes256.decrypt(key, ciphertext);`
 
-##Notes
+## Notes
 
 * This has only been tested with strings for the shared key and plaintext
 * It does not detect if decryption has failed
