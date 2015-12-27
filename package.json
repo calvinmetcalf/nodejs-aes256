@@ -13,6 +13,13 @@
     "encryption",
     "cryptography"
   ],
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "should": "8.0.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
   "author": "Jay Svoboda <jay@svoboda.co> (http://jay.svoboda.co)",
   "license": "MIT",
   "bugs": {
