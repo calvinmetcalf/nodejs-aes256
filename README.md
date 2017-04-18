@@ -23,4 +23,3 @@ For decryption, simply provide the shared key and ciphertext.
 ## Notes
 
 * This has only been tested with strings for the shared key and plaintext
-* It does not detect if decryption has failed
